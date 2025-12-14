@@ -1,0 +1,19 @@
+{
+  "name": "anti-session-hijack",
+  "version": "1.0.0",
+  "description": "Client SDK for session hijacking prevention",
+  "license": "MIT",
+  "author": "Ashin Sabu Mathew",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^5.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
