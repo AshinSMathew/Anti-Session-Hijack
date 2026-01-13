@@ -1,6 +1,6 @@
 {
   "name": "anti-session-hijack",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Client SDK for session hijacking prevention",
   "license": "MIT",
   "author": "Ashin Sabu Mathew",
