@@ -21,9 +21,9 @@ export async function email(
     text:
 `Hello,
 
-Shield detected unauthorized access to your account through a compromised session.
+Unauthorized access to your account through a compromised session has been detected.
 
-The affected session has been terminated to prevent further access.
+The affected session has to be terminated to prevent further access.
 
 REQUIRED ACTIONS:
 - Log out from all devices immediately
@@ -34,9 +34,7 @@ REQUIRED ACTIONS:
 Failure to act quickly may put your data at risk.
 
 If you do not recognize this activity, your credentials may be compromised.
-
-— Shield Incident Response Team
-shieldcorporationsltd@gmail.com`
+Please take the necessary steps to secure your account immediately.`
   };
 
   await transporter.sendMail(mailOptions);
